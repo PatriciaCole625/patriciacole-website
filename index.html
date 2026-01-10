@@ -32,7 +32,7 @@
             </div>
         </nav>
         <div class="flex-container">
-            <img height ="400px" width="300px" src="images/picture.jpg">
+            <img src="images/picture.jpg" alt="Patricia Cole portrait">
             <div class="text-container">
                 <h1>Hello, I'm Patricia Cole</h1>
                 <p>Welcome to my personal website! I'm an aspiring cybersecurity analyst and IT professional. Here, you can explore my work, learn more about my background, and get in touch with me. Thank you for visiting!</p>
@@ -40,26 +40,20 @@
                 <a href="https://drive.google.com/uc?export=view&id=1mS2eLTmA499uY_XhBLk3UqGxIVs7ta2I" 
                    class="cta-button secondary" 
                    target="_blank">View resume</a>
-
-
-
-
-
         </div>
     </div>
     </header>
 
 <!-- About Me Section -->
  <section id="about">   
-    <section>
-        <div class="flex-container">
-            <div class="text-container">
-                <h2> About Me</h2>
-                <p>I'm a passionate learner with a keen interest in cybersecurity and IT. My journey began with a fascination for technology and its potential to create a safer digital world. I enjoy tackling complex problems and continuously improving my skills through hands-on experience and collaboration. I am currently pursuing a bachelor's degree in Information Technology and plan on getting my security+ certification.</p>
-            </div>
-            <img height ="350px" width="300px" src="images/portrait.jpeg">
+    <div class="flex-container">
+        <div class="text-container">
+            <h2> About Me</h2>
+            <p>I'm a passionate learner with a keen interest in cybersecurity and IT. My journey began with a fascination for technology and its potential to create a safer digital world. I enjoy tackling complex problems and continuously improving my skills through hands-on experience and collaboration. I am currently pursuing a bachelor's degree in Information Technology and plan on getting my security+ certification.</p>
         </div>
-    </section>
+        <img src="images/portrait.jpeg" alt="Portrait of Patricia Cole">
+    </div>
+</section>
 
 
     
@@ -184,9 +178,18 @@
   </div>
 </section>
 
-<section class="footer">
+<footer>
     <p>&copy; 2025 Patricia Cole. All rights reserved.</p>
-</section>
+</footer>
+
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+</script>
 
 </body>
 </html>
