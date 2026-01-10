@@ -139,7 +139,7 @@ section {
 /* About Me Section Image */
 section img {
     width: 100%;
-    border-radius: 15px; /* adjust the value for more or less rounding */
+    border-radius: 15px;
     max-width: 300px;
     height: auto;
     object-fit: cover; /* keeps the image from stretching */
@@ -229,7 +229,7 @@ section img {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   text-align: center;
-  color: #6b7280; /* soft gray */
+  color: #6b7280;
   margin-bottom: 50px;
 }
 
@@ -283,7 +283,7 @@ section img {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   line-height: 1.7;
-  color: #cbd5e1; /* lighter gray */
+  color: #cbd5e1;
   margin-bottom: 12px;
 }
 
@@ -304,7 +304,7 @@ section img {
 
 .contact-icons i {
   font-size: 50px;
-  color: var(--secondary-color); /* LinkedIn blue for LinkedIn icon */
+  color: var(--secondary-color);
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
